@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Goole Maps"
+        android:id="@+id/GoogleMapBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Dial Up"
+        android:id="@+id/dialupBtn"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Browser"
+        android:id="@+id/browserBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Contacts"
+        android:id="@+id/show_contact_Btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:id="@+id/take_photo_Btn"/>
+
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Send Email"
+     android:id="@+id/send_email_Btn"/>
+
+    <!--
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Open Goole Maps"
+     android:id="@+id/GoogleMapBtn"/>
+     -->
+</LinearLayout>
